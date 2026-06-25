@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LottoAI — Yasal</title>
+  <title>LottoAI — Yasal Bilgiler</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f4f5f7; color: #12161b; }
@@ -29,12 +29,12 @@
 
 <header>
   <h1>LottoAI</h1>
-  <p>Yasal Bilgiler</p>
+  <p>Legal Information / Yasal Bilgiler</p>
 </header>
 
 <nav>
-  <button class="active" onclick="show('privacy', this)">Gizlilik</button>
-  <button onclick="show('terms', this)">Koşullar</button>
+  <button class="active" onclick="show('privacy', this)">Privacy / Gizlilik</button>
+  <button onclick="show('terms', this)">Terms / Koşullar</button>
 </nav>
 
 <div class="content">
@@ -42,94 +42,137 @@
   <!-- GİZLİLİK POLİTİKASI -->
   <div id="privacy" class="section active">
     <div class="card">
-      <span class="badge">Son güncelleme: Haziran 2026</span>
-      <h2>Gizlilik Politikası</h2>
+      <span class="badge">Last updated / Son güncelleme: June 2026</span>
+      <h2>Privacy Policy / Gizlilik Politikası</h2>
 
-      <h3>1. Toplanan Veriler</h3>
-      <p>LottoAI uygulaması aşağıdaki verileri toplar:</p>
-      <p>— Kaydettiğiniz kupon bilgileri (cihazınızda saklanır)</p>
+      <h3>1. Data We Collect / Toplanan Veriler</h3>
+      <p>LottoAI collects the following data:</p>
+      <p>— Account information (email address) when you sign in with email or Google</p>
+      <p>— Saved coupon data (stored on your device and optionally synced to our servers)</p>
+      <p>— Notification preferences (stored on your device)</p>
+      <p>— AI Assistant chat history (processed temporarily, not stored permanently)</p>
+      <p>— In-app preferences (name, theme, etc.)</p>
+      <p>— Push notification token (stored on our servers for notification delivery)</p>
+      <p>---</p>
+      <p>LottoAI aşağıdaki verileri toplar:</p>
+      <p>— E-posta veya Google ile giriş yaptığınızda hesap bilgileriniz (e-posta adresi)</p>
+      <p>— Kaydettiğiniz kupon bilgileri (cihazınızda ve sunucularımızda saklanır)</p>
       <p>— Bildirim tercihleri (cihazınızda saklanır)</p>
       <p>— AI Asistan ile yaptığınız sohbet geçmişi (geçici olarak işlenir, kalıcı olarak saklanmaz)</p>
       <p>— Uygulama içi tercihleriniz (isim, tema tercihi vb.)</p>
       <p>— Push bildirim token'ı (bildirim gönderimi için sunucuda saklanır)</p>
 
-      <h3>2. Verilerin Kullanımı</h3>
-      <p>Toplanan veriler yalnızca uygulama işlevlerini sağlamak amacıyla kullanılır. Verileriniz hiçbir şekilde üçüncü şahıslarla paylaşılmaz veya satılmaz.</p>
+      <h3>2. How We Use Your Data / Verilerin Kullanımı</h3>
+      <p>Collected data is used solely to provide and improve app functionality. Your data is never shared with or sold to third parties.</p>
+      <p>Toplanan veriler yalnızca uygulama işlevlerini sağlamak ve geliştirmek amacıyla kullanılır. Verileriniz hiçbir şekilde üçüncü şahıslarla paylaşılmaz veya satılmaz.</p>
 
-      <h3>3. Veri Güvenliği</h3>
-      <p>Tüm kişisel verileriniz cihazınızda yerel olarak saklanır. Sunucularımızda (Supabase) yalnızca çekiliş sonuçları gibi anonim veriler ve push bildirim token'ları bulunur. Veri aktarımı şifreli bağlantılar (HTTPS) üzerinden gerçekleştirilir.</p>
+      <h3>3. Authentication / Kimlik Doğrulama</h3>
+      <p>LottoAI uses Supabase Auth for account management. You can sign in with email/password or Google Sign-In. Your authentication data is handled securely by Supabase and Google.</p>
+      <p>LottoAI, hesap yönetimi için Supabase Auth kullanır. E-posta/şifre veya Google ile giriş yapabilirsiniz. Kimlik doğrulama verileriniz Supabase ve Google tarafından güvenli şekilde işlenir.</p>
 
-      <h3>4. Yasal Dayanak</h3>
-      <p>Veri işleme faaliyetlerimiz, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuata uygun olarak yürütülmektedir.</p>
+      <h3>4. Data Security / Veri Güvenliği</h3>
+      <p>All data transfers are encrypted via HTTPS. Authentication is handled by Supabase with industry-standard security practices. We do not store payment information.</p>
+      <p>Tüm veri aktarımları HTTPS üzerinden şifreli olarak gerçekleştirilir. Kimlik doğrulama Supabase tarafından endüstri standardı güvenlik uygulamalarıyla yönetilir. Ödeme bilgisi saklanmaz.</p>
 
-      <h3>5. Çerez ve Takip</h3>
+      <h3>5. Legal Basis / Yasal Dayanak</h3>
+      <p>Our data processing complies with GDPR (General Data Protection Regulation) and Turkey's KVKK (Personal Data Protection Law No. 6698).</p>
+      <p>Veri işleme faaliyetlerimiz, GDPR (Genel Veri Koruma Yönetmeliği) ve 6698 sayılı Kişisel Verilerin Korunması Kanunu'na (KVKK) uygun olarak yürütülmektedir.</p>
+
+      <h3>6. Cookies & Tracking / Çerez ve Takip</h3>
+      <p>The app does not use any tracking, analytics, or advertising cookies.</p>
       <p>Uygulama herhangi bir izleme, analitik veya reklam çerezi kullanmaz.</p>
 
-      <h3>6. Üçüncü Taraf Hizmetler</h3>
-      <p>Uygulama, çekiliş verilerini sağlamak için Supabase altyapısını ve AI hizmetleri için DeepSeek API'yi kullanır.</p>
-      <p>— Supabase: <a href="https://supabase.com/privacy">supabase.com/privacy</a></p>
-      <p>— DeepSeek: <a href="https://platform.deepseek.com/privacy">platform.deepseek.com/privacy</a></p>
+      <h3>7. Third-Party Services / Üçüncü Taraf Hizmetler</h3>
+      <p>— Supabase (database & auth): <a href="https://supabase.com/privacy">supabase.com/privacy</a></p>
+      <p>— Google Sign-In: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
+      <p>— DeepSeek API (AI assistant): <a href="https://platform.deepseek.com/privacy">platform.deepseek.com/privacy</a></p>
+      <p>— Resend (email delivery): <a href="https://resend.com/privacy">resend.com/privacy</a></p>
+      <p>— Firebase (push notifications): <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
 
-      <h3>7. Çocukların Gizliliği</h3>
+      <h3>8. Children's Privacy / Çocukların Gizliliği</h3>
+      <p>This app is designed for users aged 18 and over. Use by individuals under 18 is prohibited.</p>
       <p>Bu uygulama yalnızca 18 yaş ve üzeri bireyler için tasarlanmıştır. 18 yaş altı bireylerin uygulamayı kullanması yasaktır.</p>
 
-      <h3>8. Veri Saklama ve Silme</h3>
-      <p>Kupon verileriniz ve tercihleriniz, siz silene kadar cihazınızda saklanır. AI sohbet geçmişi yalnızca oturum süresince tutulur. Profil ekranındaki "Tüm Verileri Sil" seçeneği ile tüm yerel verilerinizi silebilirsiniz.</p>
+      <h3>9. Data Retention & Deletion / Veri Saklama ve Silme</h3>
+      <p>Your account data is retained until you delete your account. You can delete all local data via "Delete All Data" in the Profile screen. To request account deletion, contact us at support@getlottoai.app.</p>
+      <p>Hesap verileriniz siz hesabınızı silene kadar saklanır. Profil ekranındaki "Tüm Verileri Sil" seçeneği ile tüm yerel verilerinizi silebilirsiniz. Hesap silme talebi için support@getlottoai.app adresine ulaşabilirsiniz.</p>
 
-      <h3>9. Değişiklikler</h3>
+      <h3>10. Your Rights / Haklarınız</h3>
+      <p>Under GDPR and KVKK, you have the right to access, correct, delete, or port your personal data. To exercise these rights, contact us at support@getlottoai.app.</p>
+      <p>GDPR ve KVKK kapsamında kişisel verilerinize erişme, düzeltme, silme veya taşıma hakkına sahipsiniz. Bu haklarınızı kullanmak için support@getlottoai.app adresine ulaşabilirsiniz.</p>
+
+      <h3>11. Changes / Değişiklikler</h3>
+      <p>This privacy policy may be updated periodically. Changes will be announced in the app and on this page.</p>
       <p>Bu gizlilik politikası zaman zaman güncellenebilir. Değişiklikler uygulama içinde ve bu sayfada duyurulacaktır.</p>
 
-      <h3>10. İletişim</h3>
-      <p>Sorularınız için: <a href="mailto:lottoai.destek@gmail.com">lottoai.destek@gmail.com</a></p>
+      <h3>12. Contact / İletişim</h3>
+      <p>For questions: <a href="mailto:support@getlottoai.app">support@getlottoai.app</a></p>
     </div>
   </div>
 
   <!-- KULLANIM KOŞULLARI -->
   <div id="terms" class="section">
     <div class="card">
-      <span class="badge">Son güncelleme: Haziran 2026</span>
-      <h2>Kullanım Koşulları</h2>
+      <span class="badge">Last updated / Son güncelleme: June 2026</span>
+      <h2>Terms of Service / Kullanım Koşulları</h2>
 
-      <h3>1. Kabul</h3>
+      <h3>1. Acceptance / Kabul</h3>
+      <p>By using this application, you agree to the following terms.</p>
       <p>Bu uygulamayı kullanarak aşağıdaki şartları kabul etmiş sayılırsınız.</p>
 
-      <h3>2. Yasal Uyarı</h3>
+      <h3>2. Legal Warning / Yasal Uyarı</h3>
+      <p>— This app is designed for users aged 18 and over.</p>
+      <p>— The app is for informational and entertainment purposes only.</p>
+      <p>— Lottery games can be addictive. Please play responsibly.</p>
+      <p>— For help: Yeşilay 115 helpline (Turkey)</p>
+      <p>---</p>
       <p>— Bu uygulama yalnızca 18 yaş ve üzeri bireyler için tasarlanmıştır.</p>
       <p>— Uygulama yalnızca bilgilendirme ve eğlence amaçlıdır.</p>
       <p>— Şans oyunları bağımlılık yapabilir. Lütfen sorumlu oynayın.</p>
       <p>— Yardım için: Yeşilay 115 danışma hattı</p>
 
-      <h3>3. Hizmet Kapsamı</h3>
-      <p>LottoAI; rastgele kupon üretimi, çekiliş sonuçlarının görüntülenmesi, istatistik ve analiz araçları, AI destekli kupon önerileri ve çekiliş hatırlatıcıları hizmetlerini sunar.</p>
+      <h3>3. Service Scope / Hizmet Kapsamı</h3>
+      <p>LottoAI provides: random coupon generation, lottery results display, statistics and analysis tools, AI-powered coupon suggestions, draw reminders, and user account management.</p>
+      <p>LottoAI; rastgele kupon üretimi, çekiliş sonuçlarının görüntülenmesi, istatistik ve analiz araçları, AI destekli kupon önerileri, çekiliş hatırlatıcıları ve kullanıcı hesabı yönetimi hizmetlerini sunar.</p>
 
-      <h3>4. AI Asistan Kullanımı</h3>
+      <h3>4. User Accounts / Kullanıcı Hesapları</h3>
+      <p>You may use the app as a guest or create an account. You are responsible for maintaining the security of your account credentials. We reserve the right to suspend accounts that violate these terms.</p>
+      <p>Uygulamayı misafir olarak veya hesap oluşturarak kullanabilirsiniz. Hesap güvenliğinizi korumak sizin sorumluluğunuzdadır. Bu koşulları ihlal eden hesapları askıya alma hakkımızı saklı tutarız.</p>
+
+      <h3>5. AI Assistant / AI Asistan</h3>
+      <p>All content generated by the AI Assistant is for informational purposes only. The AI does not guarantee winnings and may contain errors.</p>
       <p>AI Asistan tarafından üretilen tüm içerikler yalnızca bilgilendirme amaçlıdır. AI kazanma garantisi vermez ve verdiği bilgilerde hatalar olabilir.</p>
 
-      <h3>5. Sorumluluk Reddi</h3>
+      <h3>6. Disclaimer / Sorumluluk Reddi</h3>
+      <p>The app does not guarantee winnings. Draw results are determined by official authorities. Prize amounts shown in the app are estimates. This app is not officially affiliated with the Turkish National Lottery Administration (Milli Piyango İdaresi).</p>
       <p>Uygulama kazanç garantisi vermez. Çekiliş sonuçları ilgili resmi kurumlar tarafından belirlenir. Uygulama içindeki ikramiye tutarları tahminidir. Bu uygulama Milli Piyango İdaresi ile resmi olarak bağlantılı değildir.</p>
 
-      <h3>6. Kullanım Kuralları</h3>
+      <h3>7. Usage Rules / Kullanım Kuralları</h3>
+      <p>You may only use the app for lawful purposes. Misuse, reverse engineering, or unauthorized copying of the app is prohibited.</p>
       <p>Uygulamayı yalnızca yasal amaçlarla kullanabilirsiniz. Uygulamayı kötüye kullanmak, tersine mühendislik yapmak veya izinsiz kopyalamak yasaktır.</p>
 
-      <h3>7. Fikri Mülkiyet</h3>
-      <p>Uygulama kodu, tasarımı ve içeriği LottoAI'ye aittir. Çılgın Sayısal, Süper Loto, Şans Topu, On Numara isimleri ilgili kurumların tescilli markalarıdır.</p>
+      <h3>8. Intellectual Property / Fikri Mülkiyet</h3>
+      <p>The app code, design, and content belong to LottoAI. Çılgın Sayısal, Süper Loto, Şans Tobu, On Numara are registered trademarks of their respective owners.</p>
+      <p>Uygulama kodu, tasarımı ve içeriği LottoAI'ye aittir. Çılgın Sayısal, Süper Loto, Şans Tobu, On Numara isimleri ilgili kurumların tescilli markalarıdır.</p>
 
-      <h3>8. Değişiklikler</h3>
+      <h3>9. Changes / Değişiklikler</h3>
+      <p>These terms may be updated periodically. Updates will be announced in the app.</p>
       <p>Bu şartlar zaman zaman güncellenebilir. Güncellemeler uygulama içinde duyurulacaktır.</p>
 
-      <h3>9. Uygulanacak Hukuk</h3>
+      <h3>10. Governing Law / Uygulanacak Hukuk</h3>
+      <p>These terms are governed by the laws of the Republic of Turkey. In case of dispute, Istanbul courts shall have jurisdiction.</p>
       <p>Bu şartlar Türkiye Cumhuriyeti kanunlarına tabidir. Uyuşmazlık durumunda İstanbul Mahkemeleri yetkilidir.</p>
 
-      <h3>10. İletişim</h3>
-      <p>Sorularınız için: <a href="mailto:lottoai.destek@gmail.com">lottoai.destek@gmail.com</a></p>
+      <h3>11. Contact / İletişim</h3>
+      <p>For questions: <a href="mailto:support@getlottoai.app">support@getlottoai.app</a></p>
     </div>
   </div>
 
 </div>
 
 <footer>
-  <p>LottoAI · 18+ · Şans oyunları asistanı</p>
-  <p style="margin-top: 8px;">© 2026 LottoAI. Tüm hakları saklıdır.</p>
+  <p>LottoAI · 18+ · Lottery assistant / Şans oyunları asistanı</p>
+  <p style="margin-top: 8px;">© 2026 LottoAI. All rights reserved / Tüm hakları saklıdır.</p>
 </footer>
 
 <script>
