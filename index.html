@@ -132,21 +132,21 @@
 
       <h3>1. Toplanan Veriler / Data We Collect</h3>
       <p>LottoAI aşağıdaki verileri toplar:</p>
-      <p>— E-posta veya Google ile giriş yaptığınızda hesap bilgileriniz (e-posta adresi)</p>
-      <p>— Kaydettiğiniz kupon bilgileri (cihazınızda ve sunucularımızda saklanır)</p>
+      <p>— E-posta, Google veya Apple ile giriş yaptığınızda hesap bilgileriniz (e-posta adresi)</p>
+      <p>— Kaydettiğiniz kupon bilgileri (cihazınızda saklanır)</p>
       <p>— Bildirim tercihleri (cihazınızda saklanır)</p>
       <p>— AI Asistan ile yaptığınız sohbet geçmişi: hesabınızla ilişkilendirilerek saklanır, AI'ın verdiği yanıtları incelemek ve geliştirmek amacıyla kullanılır. Bu veriler üçüncü şahıslarla paylaşılmaz veya satılmaz (AI işleme ortağımız için bkz. Madde 7).</p>
       <p>— Uygulama içi tercihleriniz (isim, tema tercihi vb.)</p>
       <p>— Push bildirim token'ı (bildirim gönderimi için sunucuda saklanır)</p>
       <hr class="divider" />
-      <p>LottoAI collects the following data: account information (email) when you sign in with email or Google, saved coupon data, notification preferences, AI Assistant chat history (stored, linked to your account, used only to review and improve the AI's responses, never shared with third parties), in-app preferences, and your push notification token.</p>
+      <p>LottoAI collects the following data: account information (email) when you sign in with email, Google, or Apple; saved coupon data (stored on your device); notification preferences; AI Assistant chat history (stored, linked to your account, used only to review and improve the AI's responses, never shared with third parties); in-app preferences; and your push notification token.</p>
 
       <h3>2. Verilerin Kullanımı / How We Use Your Data</h3>
       <p>Toplanan veriler yalnızca uygulama işlevlerini sağlamak ve geliştirmek amacıyla kullanılır — bu kapsamda, AI Asistan'ın verdiği yanıtları daha doğru ve faydalı hale getirmek için sohbet geçmişiniz ekibimiz tarafından incelenebilir. Verileriniz hiçbir şekilde üçüncü şahıslarla paylaşılmaz veya satılmaz.</p>
       <p>Collected data is used solely to provide and improve app functionality — including reviewing AI Assistant conversations to make the AI's responses more accurate and helpful. Your data is never shared with or sold to third parties.</p>
 
       <h3>3. Kimlik Doğrulama / Authentication</h3>
-      <p>LottoAI, hesap yönetimi için Supabase Auth kullanır. E-posta/şifre veya Google ile giriş yapabilirsiniz. Kimlik doğrulama verileriniz Supabase ve Google tarafından güvenli şekilde işlenir.</p>
+      <p>LottoAI, hesap yönetimi için Supabase Auth kullanır. E-posta/şifre, Google veya Apple ile giriş yapabilirsiniz. Kimlik doğrulama verileriniz Supabase, Google ve/veya Apple tarafından güvenli şekilde işlenir.</p>
 
       <h3>4. Veri Güvenliği / Data Security</h3>
       <p>Tüm veri aktarımları HTTPS üzerinden şifreli olarak gerçekleştirilir. Kimlik doğrulama Supabase tarafından endüstri standardı güvenlik uygulamalarıyla yönetilir. AI Asistan sohbetleri veritabanı seviyesinde erişim kurallarıyla (Row Level Security) korunur: hiçbir kullanıcı bir başkasının sohbetini okuyamaz ve bu kayıtlar uygulama içinden görüntülenemez — yalnızca ekibimiz, güvenli arka uç araçlarıyla ve sadece AI'ı geliştirmek amacıyla erişebilir. Ödeme bilgisi saklanmaz.</p>
@@ -160,6 +160,7 @@
       <h3>7. Üçüncü Taraf Hizmetler / Third-Party Services</h3>
       <p>— Supabase (veritabanı &amp; kimlik doğrulama): <a href="https://supabase.com/privacy">supabase.com/privacy</a></p>
       <p>— Google Sign-In: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
+      <p>— Apple Sign-In: <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></p>
       <p>— DeepSeek API (yapay zeka asistanı): AI Asistan'a yazdığınız mesajlar, işlenmek üzere DeepSeek'e gönderilir. <a href="https://platform.deepseek.com/privacy">platform.deepseek.com/privacy</a></p>
       <p>— Resend (e-posta gönderimi): <a href="https://resend.com/privacy">resend.com/privacy</a></p>
       <p>— Firebase (push bildirimleri): <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
@@ -168,10 +169,11 @@
       <p>Bu uygulama yalnızca 18 yaş ve üzeri bireyler için tasarlanmıştır. 18 yaş altı bireylerin uygulamayı kullanması yasaktır.</p>
 
       <h3>9. Veri Saklama ve Silme / Data Retention &amp; Deletion</h3>
-      <p>Hesap verileriniz — AI Asistan sohbet geçmişiniz dahil — siz hesabınızı silene kadar saklanır. Profil ekranındaki "Tüm Verileri Sil" seçeneği ile tüm yerel verilerinizi silebilirsiniz. Hesabınızın ve buna bağlı tüm verilerin (AI sohbet geçmişi dahil) silinmesini talep etmek için support@getlottoai.app adresine ulaşabilirsiniz.</p>
+      <p>Hesap verileriniz — AI Asistan sohbet geçmişiniz dahil — siz hesabınızı silene kadar saklanır. Hesabınızı ve buna bağlı tüm verileri (AI sohbet geçmişi ve bu cihazdaki yerel veriler dahil) kalıcı olarak silmek için Profil ekranındaki "Hesabımı sil" seçeneğini kullanabilirsiniz. Bu işlem geri alınamaz. Teknik bir sorun yaşarsanız support@getlottoai.app adresine de yazabilirsiniz.</p>
+      <p>Your account data — including AI Assistant chat history — is retained until you delete your account. You can permanently delete your account and all related data (including AI chat history and local data on this device) using the "Delete my account" option on the Profile screen. This action cannot be undone. If you encounter a technical issue, you may also contact support@getlottoai.app.</p>
 
       <h3>10. Haklarınız / Your Rights</h3>
-      <p>GDPR ve KVKK kapsamında, AI Asistan sohbet geçmişiniz dahil kişisel verilerinize erişme, düzeltme, silme veya taşıma hakkına sahipsiniz. Bu haklarınızı kullanmak için support@getlottoai.app adresine ulaşabilirsiniz.</p>
+      <p>GDPR ve KVKK kapsamında, AI Asistan sohbet geçmişiniz dahil kişisel verilerinize erişme, düzeltme, silme veya taşıma hakkına sahipsiniz. Hesap silme için Profil ekranındaki "Hesabımı sil" seçeneğini kullanın; diğer talepleriniz için support@getlottoai.app adresine ulaşabilirsiniz.</p>
 
       <h3>11. Değişiklikler / Changes</h3>
       <p>Bu gizlilik politikası zaman zaman güncellenebilir. Değişiklikler uygulama içinde ve bu sayfada duyurulacaktır.</p>
