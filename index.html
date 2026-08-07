@@ -91,6 +91,15 @@
   h3 { font-size: 14.5px; font-weight: 700; margin: 22px 0 8px; color: var(--text); }
   p { font-size: 14px; line-height: 1.7; color: var(--text-2); margin-bottom: 9px; }
   .divider { border: none; border-top: 1px solid var(--border); margin: 12px 0; }
+  ol.steps {
+    margin: 8px 0 14px 0;
+    padding-left: 22px;
+    color: var(--text-2);
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  ol.steps li { margin-bottom: 6px; }
+  ol.steps li::marker { color: var(--emerald); font-weight: 700; }
 
   .badge {
     display: inline-block;
@@ -127,7 +136,7 @@
 
   <div id="privacy" class="section active">
     <div class="card">
-      <span class="badge">Son güncelleme / Last updated: Temmuz 2026</span>
+      <span class="badge">Son güncelleme / Last updated: Ağustos 2026</span>
       <h2>Gizlilik Politikası / Privacy Policy</h2>
 
       <h3>1. Toplanan Veriler / Data We Collect</h3>
@@ -168,17 +177,38 @@
       <h3>8. Çocukların Gizliliği / Children's Privacy</h3>
       <p>Bu uygulama yalnızca 18 yaş ve üzeri bireyler için tasarlanmıştır. 18 yaş altı bireylerin uygulamayı kullanması yasaktır.</p>
 
-      <h3>9. Veri Saklama ve Silme / Data Retention &amp; Deletion</h3>
-      <p>Hesap verileriniz — AI Asistan sohbet geçmişiniz dahil — siz hesabınızı silene kadar saklanır. Hesabınızı ve buna bağlı tüm verileri (AI sohbet geçmişi ve bu cihazdaki yerel veriler dahil) kalıcı olarak silmek için Profil ekranındaki "Hesabımı sil" seçeneğini kullanabilirsiniz. Bu işlem geri alınamaz. Teknik bir sorun yaşarsanız support@getlottoai.app adresine de yazabilirsiniz.</p>
-      <p>Your account data — including AI Assistant chat history — is retained until you delete your account. You can permanently delete your account and all related data (including AI chat history and local data on this device) using the "Delete my account" option on the Profile screen. This action cannot be undone. If you encounter a technical issue, you may also contact support@getlottoai.app.</p>
+      <h3 id="account-deletion">9. Hesap Silme / Account Deletion</h3>
+      <p>LottoAI uygulamasında hesabınızı istediğiniz zaman kalıcı olarak silebilirsiniz. Silme işlemi uygulama içinden yapılır:</p>
+      <ol class="steps">
+        <li>LottoAI uygulamasını açın</li>
+        <li>Profil sekmesine gidin</li>
+        <li>"Hesabımı sil" seçeneğine dokunun</li>
+        <li>Onay ekranında işlemi onaylayın</li>
+      </ol>
+      <p>Hesap silindiğinde şu veriler kalıcı olarak silinir: hesap bilgileriniz (e-posta ve kimlik doğrulama kaydı), kayıtlı kuponlarınız (bu cihazdaki yerel veriler dahil), AI Asistan konuşma geçmişiniz ve kullanım / kota verileriniz. Bu işlem geri alınamaz.</p>
+      <p>Teknik bir sorun yaşarsanız <a href="mailto:support@getlottoai.app">support@getlottoai.app</a> adresine yazabilirsiniz; size yardımcı oluruz.</p>
+      <hr class="divider" />
+      <p>You can permanently delete your LottoAI account at any time from within the app:</p>
+      <ol class="steps">
+        <li>Open the LottoAI app</li>
+        <li>Go to the Profile tab</li>
+        <li>Tap "Delete my account"</li>
+        <li>Confirm the action on the confirmation screen</li>
+      </ol>
+      <p>When you delete your account, the following data is permanently removed: your account information (email and authentication record), saved coupons (including local data on this device), AI Assistant conversation history, and usage / quota data. This action cannot be undone.</p>
+      <p>If you encounter a technical issue, contact <a href="mailto:support@getlottoai.app">support@getlottoai.app</a> and we will help you.</p>
 
-      <h3>10. Haklarınız / Your Rights</h3>
-      <p>GDPR ve KVKK kapsamında, AI Asistan sohbet geçmişiniz dahil kişisel verilerinize erişme, düzeltme, silme veya taşıma hakkına sahipsiniz. Hesap silme için Profil ekranındaki "Hesabımı sil" seçeneğini kullanın; diğer talepleriniz için support@getlottoai.app adresine ulaşabilirsiniz.</p>
+      <h3>10. Veri Saklama ve Silme / Data Retention &amp; Deletion</h3>
+      <p>Hesap verileriniz — AI Asistan sohbet geçmişiniz dahil — siz hesabınızı silene kadar saklanır. Adım adım silme talimatı için yukarıdaki <a href="#account-deletion">Madde 9 (Hesap Silme)</a> bölümüne bakın. Bu işlem geri alınamaz. Teknik bir sorun yaşarsanız support@getlottoai.app adresine de yazabilirsiniz.</p>
+      <p>Your account data — including AI Assistant chat history — is retained until you delete your account. For step-by-step deletion instructions, see <a href="#account-deletion">Section 9 (Account Deletion)</a> above. This action cannot be undone. If you encounter a technical issue, you may also contact support@getlottoai.app.</p>
 
-      <h3>11. Değişiklikler / Changes</h3>
+      <h3>11. Haklarınız / Your Rights</h3>
+      <p>GDPR ve KVKK kapsamında, AI Asistan sohbet geçmişiniz dahil kişisel verilerinize erişme, düzeltme, silme veya taşıma hakkına sahipsiniz. Hesap silme için <a href="#account-deletion">Madde 9</a>’daki adımları izleyin; diğer talepleriniz için support@getlottoai.app adresine ulaşabilirsiniz.</p>
+
+      <h3>12. Değişiklikler / Changes</h3>
       <p>Bu gizlilik politikası zaman zaman güncellenebilir. Değişiklikler uygulama içinde ve bu sayfada duyurulacaktır.</p>
 
-      <h3>12. İletişim / Contact</h3>
+      <h3>13. İletişim / Contact</h3>
       <p>Sorularınız için: <a href="mailto:support@getlottoai.app">support@getlottoai.app</a></p>
     </div>
   </div>
@@ -242,13 +272,22 @@
     history.replaceState(null, '', '#' + id);
   }
 
-  (function () {
-    var hash = window.location.hash.replace('#', '');
-    if (hash === 'terms') {
-      var btn = document.querySelector('nav button[data-tab="terms"]');
-      if (btn) show('terms', btn);
+(function () {
+  var hash = window.location.hash.replace('#', '');
+  if (hash === 'terms') {
+    var btn = document.querySelector('nav button[data-tab="terms"]');
+    if (btn) show('terms', btn);
+  } else if (hash === 'account-deletion' || hash === 'privacy') {
+    var privacyBtn = document.querySelector('nav button[data-tab="privacy"]');
+    if (privacyBtn) show('privacy', privacyBtn);
+    if (hash === 'account-deletion') {
+      setTimeout(function () {
+        var el = document.getElementById('account-deletion');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
     }
-  })();
+  }
+})();
 </script>
 
 </body>
